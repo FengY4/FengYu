@@ -54,28 +54,28 @@ about:Label("作者风御")
 about:Label("缝合脚本集")
 
 
-local UITab1 = win:Tab("『通用』",'6031097229')
+local UITab2 = win:Tab("『通用』",'6031097229')
 
 
-local UITab1 = win:Tab("『索尼克灾难』",'7733770689')
+local UITab3 = win:Tab("『索尼克灾难』",'7733770689')
 
 
-local UITab1 = win:Tab("『灾难1.2』",'7733920226')
+local UITab4 = win:Tab("『灾难1.2』",'7733920226')
 
 
-local UITab1 = win:Tab("『测试』",'7733955969')
+local UITab5 = win:Tab("『测试』",'7733955969')
 
 
-local UITab1 = win:Tab("『测试1』",'7733674153')
+local UITab6 = win:Tab("『测试1』",'7733674153')
 
 
-local UITab1 = win:Tab("『测试2』",'7733770599')
+local UITab7 = win:Tab("『测试2』",'7733770599')
 
 
-local UITab1 = win:Tab("『测试3』",'7733779668')
+local UITab8 = win:Tab("『测试3』",'7733779668')
 
 
-local UITab1 = win:Tab("『测试4』",'7743873633')
+local UITab9 = win:Tab("『测试4』",'7743873633')
 
 
-local UITab1 = win:Tab("『测试5』",'6035145364')
+local UITab10 = win:Tab("『测试5』",'6035145364')
