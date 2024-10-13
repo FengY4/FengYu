@@ -136,8 +136,8 @@ local hum = chr and chr:FindFirstChildWhichIsA("Humanoid")
 nowe = false
 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
-	Title = "Fly GUI V3";
-	Text = "By me_ozone and Quandale The Dinglish XII#3550";
+	Title = "刹飞行";
+	Text = "By 我的飞行好看吗 风御大帝";
 	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
 Duration = 5;
 
