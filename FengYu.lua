@@ -22,22 +22,22 @@ Frame.BorderColor3 = Color3.fromRGB(103, 221, 213)
 Frame.Position = UDim2.new(0.100320168, 0, 0.379746825, 0)
 Frame.Size = UDim2.new(0, 190, 0, 57)
 
-up.Name = "上"
+up.Name = "up"
 up.Parent = Frame
 up.BackgroundColor3 = Color3.fromRGB(79, 255, 152)
 up.Size = UDim2.new(0, 44, 0, 28)
 up.Font = Enum.Font.SourceSans
-up.Text = "up"
+up.Text = "上"
 up.TextColor3 = Color3.fromRGB(0, 0, 0)
 up.TextSize = 14.000
 
-down.Name = "下"
+down.Name = "down"
 down.Parent = Frame
 down.BackgroundColor3 = Color3.fromRGB(215, 255, 121)
 down.Position = UDim2.new(0, 0, 0.491228074, 0)
 down.Size = UDim2.new(0, 44, 0, 28)
 down.Font = Enum.Font.SourceSans
-down.Text = "down"
+down.Text = "下"
 down.TextColor3 = Color3.fromRGB(0, 0, 0)
 down.TextSize = 14.000
 
@@ -47,7 +47,7 @@ onof.BackgroundColor3 = Color3.fromRGB(255, 249, 74)
 onof.Position = UDim2.new(0.702823281, 0, 0.491228074, 0)
 onof.Size = UDim2.new(0, 56, 0, 28)
 onof.Font = Enum.Font.SourceSans
-onof.Text = 飞"
+onof.Text = "刹飞行"
 onof.TextColor3 = Color3.fromRGB(0, 0, 0)
 onof.TextSize = 14.000
 
@@ -56,7 +56,7 @@ TextLabel.BackgroundColor3 = Color3.fromRGB(242, 60, 255)
 TextLabel.Position = UDim2.new(0.469327301, 0, 0, 0)
 TextLabel.Size = UDim2.new(0, 100, 0, 28)
 TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "刹飞行"
+TextLabel.Text = "飞行脚本"
 TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
@@ -112,8 +112,8 @@ mini.Parent = main.Frame
 mini.BackgroundColor3 = Color3.fromRGB(192, 150, 230)
 mini.Font = "SourceSans"
 mini.Size = UDim2.new(0, 45, 0, 28)
-mini.Text = "缩小"
-mini.TextSize = 30
+mini.Text = "隐藏"
+mini.TextSize = 40
 mini.Position = UDim2.new(0, 44, -1, 27)
 
 mini2.Name = "minimize2"
@@ -121,8 +121,8 @@ mini2.Parent = main.Frame
 mini2.BackgroundColor3 = Color3.fromRGB(192, 150, 230)
 mini2.Font = "SourceSans"
 mini2.Size = UDim2.new(0, 45, 0, 28)
-mini2.Text = "T"
-mini2.TextSize = 30
+mini2.Text = "+"
+mini2.TextSize = 40
 mini2.Position = UDim2.new(0, 44, -1, 57)
 mini2.Visible = false
 
@@ -137,7 +137,7 @@ nowe = false
 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Fly GUI V3";
-	Text = "lnjection succeeded";
+	Text = "By me_ozone and Quandale The Dinglish XII#3550";
 	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
 Duration = 5;
 
@@ -414,7 +414,7 @@ plus.MouseButton1Down:connect(function()
 end)
 mine.MouseButton1Down:connect(function()
 	if speeds == 1 then
-		speed.Text = 'flyno1'
+		speed.Text = 'cannot be less than 1'
 		wait(1)
 		speed.Text = speeds
 	else
