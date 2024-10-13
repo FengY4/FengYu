@@ -137,7 +137,7 @@ nowe = false
 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "刹飞行";
-	Text = "By 我的飞行好看吗  风御大帝";
+	Text = "By 我的飞行好看吗";
 	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
 Duration = 5;
 
