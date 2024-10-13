@@ -22,7 +22,7 @@ Frame.BorderColor3 = Color3.fromRGB(103, 221, 213)
 Frame.Position = UDim2.new(0.100320168, 0, 0.379746825, 0)
 Frame.Size = UDim2.new(0, 190, 0, 57)
 
-up.Name = "up"
+up.Name = "上"
 up.Parent = Frame
 up.BackgroundColor3 = Color3.fromRGB(79, 255, 152)
 up.Size = UDim2.new(0, 44, 0, 28)
@@ -31,7 +31,7 @@ up.Text = "up"
 up.TextColor3 = Color3.fromRGB(0, 0, 0)
 up.TextSize = 14.000
 
-down.Name = "down"
+down.Name = "下"
 down.Parent = Frame
 down.BackgroundColor3 = Color3.fromRGB(215, 255, 121)
 down.Position = UDim2.new(0, 0, 0.491228074, 0)
@@ -47,7 +47,7 @@ onof.BackgroundColor3 = Color3.fromRGB(255, 249, 74)
 onof.Position = UDim2.new(0.702823281, 0, 0.491228074, 0)
 onof.Size = UDim2.new(0, 56, 0, 28)
 onof.Font = Enum.Font.SourceSans
-onof.Text = "fly"
+onof.Text = 飞"
 onof.TextColor3 = Color3.fromRGB(0, 0, 0)
 onof.TextSize = 14.000
 
@@ -56,7 +56,7 @@ TextLabel.BackgroundColor3 = Color3.fromRGB(242, 60, 255)
 TextLabel.Position = UDim2.new(0.469327301, 0, 0, 0)
 TextLabel.Size = UDim2.new(0, 100, 0, 28)
 TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "Fly GUI V3"
+TextLabel.Text = "刹飞行"
 TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
@@ -103,7 +103,7 @@ closebutton.Parent = main.Frame
 closebutton.BackgroundColor3 = Color3.fromRGB(225, 25, 0)
 closebutton.Font = "SourceSans"
 closebutton.Size = UDim2.new(0, 45, 0, 28)
-closebutton.Text = "X"
+closebutton.Text = "关闭"
 closebutton.TextSize = 30
 closebutton.Position =  UDim2.new(0, 0, -1, 27)
 
@@ -112,7 +112,7 @@ mini.Parent = main.Frame
 mini.BackgroundColor3 = Color3.fromRGB(192, 150, 230)
 mini.Font = "SourceSans"
 mini.Size = UDim2.new(0, 45, 0, 28)
-mini.Text = "T"
+mini.Text = "缩小"
 mini.TextSize = 30
 mini.Position = UDim2.new(0, 44, -1, 27)
 
